@@ -4,8 +4,9 @@ jdk:
 
 sudo: required
 
-script:
+before_script:
   - ./gradlew assemble
+script:
   - ./gradlew run
 
 cache:
