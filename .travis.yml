@@ -4,8 +4,6 @@ jdk:
 
 sudo: required
 
-before_script:
-  - ./gradlew assemble
 script:
   - ./gradlew run
 
